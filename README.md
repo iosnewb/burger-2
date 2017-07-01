@@ -1,1 +1,1 @@
-# eat-da-burger
+# eat-da-burger convert to sequelize
