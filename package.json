@@ -1,27 +1,28 @@
 {
-  "name": "eat-da-burger",
+  "name": "burger-2",
   "version": "1.0.0",
-  "description": "application demonstrating handlebars",
+  "description": "orm to sequelize",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iosnewb/eat-da-burger.git"
+    "url": "git+https://github.com/iosnewb/burger-2.git"
   },
   "author": "Tri Ton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iosnewb/eat-da-burger/issues"
+    "url": "https://github.com/iosnewb/burger-2/issues"
   },
-  "homepage": "https://github.com/iosnewb/eat-da-burger#readme",
+  "homepage": "https://github.com/iosnewb/burger-2#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.9",
-    "mysql": "^2.13.0",
+    "mysql2": "^1.3.5",
     "sequelize": "^4.2.1"
   }
 }
